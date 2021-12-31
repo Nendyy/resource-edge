@@ -7,7 +7,7 @@ import { Travel, Asset, Vouchers, Payroll } from "../assets";
 import travelDetails from "../assets/travel-details.svg";
 import payrollDetails from "../assets/payroll-details.svg";
 
-const Admin = () => {
+const FinanceLogistics = () => {
   return (
     <main className="admin-container">
       <div className="section-center">
@@ -84,4 +84,4 @@ const Admin = () => {
   );
 };
 
-export default Admin;
+export default FinanceLogistics;

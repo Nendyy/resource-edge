@@ -1,7 +1,7 @@
 import React from "react";
 import { EmployeeManagement, PerformanceManagement, TimeOff } from "../assets";
 import employeeDirectory from "../assets/employee-directory.svg";
-const Hr = () => {
+const HumanResources = () => {
   return (
     <main className="hr-container">
       <div className="section-center">
@@ -48,4 +48,4 @@ const Hr = () => {
   );
 };
 
-export default Hr;
+export default HumanResources;
