@@ -16,11 +16,11 @@ function App() {
           <Route path="/" exact={true} element={<Home />}></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/password" element={<Password />}></Route>
-          <Route path="/resetpassword" element={<ResetPassword />}></Route>
-          <Route path="/recoverymail" element={<RecoveryMail />}></Route>
-          <Route path="/newpassword" element={<NewPassword />}></Route>
+          <Route path="/reset_password" element={<ResetPassword />}></Route>
+          <Route path="/recovery_mail" element={<RecoveryMail />}></Route>
+          <Route path="/new_password" element={<NewPassword />}></Route>
           <Route
-            path="/resetpasswordsuccessful"
+            path="/reset_password_successful"
             element={<ResetPasswordSuccessful />}
           ></Route>
           <Route path="/dashboard" element={<DashBoard />}></Route>
