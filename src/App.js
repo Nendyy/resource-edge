@@ -1,11 +1,11 @@
-import Home from "./components/Home";
-import Login from "./components/Login";
-import Password from "./components/Password";
-import ResetPassword from "./components/ResetPassword";
-import RecoveryMail from "./components/RecoveryMail";
-import NewPassword from "./components/NewPassword";
-import ResetPasswordSuccessful from "./components/ResetPasswordSuccessful";
-import DashBoard from "./components/Dashboard";
+import Home from "./Screens/Home";
+import Login from "./Screens/Login";
+import Password from "./Screens/Password";
+import ResetPassword from "./Screens/ResetPassword";
+import RecoveryMail from "./Screens/RecoveryMail";
+import NewPassword from "./Screens/NewPassword";
+import ResetPasswordSuccessful from "./Screens/ResetPasswordSuccessful";
+import DashBoard from "./Screens/Dashboard";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
