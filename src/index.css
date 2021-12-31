@@ -4,6 +4,7 @@
   --blueColor: #0052cc;
   --greyBg: #f4f5f7;
   --btnGreyColor: #f4f5f7;
+  --btnHover: #0058cc;
   --greyColor: #a5adba;
   --alert: #de350b;
   --fontFamily: "CircularStd";
@@ -195,8 +196,7 @@ ul {
   text-align: center;
 }
 .sign-in-btn:hover {
-  background: var(--white);
-  color: var(--greyColor);
+  background: var(--btnHover);
 }
 .sign-up-btn {
   color: var(--greyColor);
@@ -213,10 +213,6 @@ ul {
   font-size: 32px;
   line-height: 40px;
   text-transform: none;
-}
-.sign-up-btn:hover {
-  background: var(--blueColor);
-  color: var(--white);
 }
 
 .hero-center {
