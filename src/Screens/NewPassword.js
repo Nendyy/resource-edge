@@ -18,7 +18,7 @@ const NewPassword = () => {
       setConfirmError(true);
       setError(false);
     } else {
-      navigate("/resetpasswordsuccessful");
+      navigate("/reset_password_successful");
     }
   };
   return (

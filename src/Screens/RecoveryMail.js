@@ -28,7 +28,7 @@ const RecoveryMail = () => {
               marginBottom: "1.5rem",
             }}
           />
-          <Link className="forgot-password-btn" to="/newpassword">
+          <Link className="forgot-password-btn" to="/new_password">
             Continue
           </Link>
         </div>

@@ -10,8 +10,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   const validateEmail = (value) => {
-    const checker = /\S+@\S+\.\S+/;
-    if (checker.test(value)) {
+    if (/\S+@\S+\.\S+/.test(value)) {
       setError(false);
       setIsChecked(true);
     } else {
@@ -76,7 +75,7 @@ const Login = () => {
               }}
             />
 
-            <Link className="forgot-password-btn" to="/resetpassword">
+            <Link className="forgot-password-btn" to="/reset_password">
               Forgot password?
             </Link>
           </div>

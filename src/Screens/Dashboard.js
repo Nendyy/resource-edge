@@ -5,13 +5,13 @@ import logo from "../assets/Logo.svg";
 import { Avatar, CirclEmpty, Check, TalentManager, Employee } from "../assets";
 
 const Dashboard = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   return (
     <section className="dashboard-section">
       <div className="nav-dashboard">
         <div className="dashboard-section-center">
           <div className="dashboard-header">
-            <img src={menu} alt=""  />
+            <img src={menu} alt="" />
             <img src={logo} alt="" />
             <div
               style={{ borderLeft: "1.5px solid #C1C7D0", height: "1.5rem" }}
@@ -28,10 +28,10 @@ const Dashboard = () => {
           </div>
           <div
             className="avatar-container"
-            onClick={() => setIsModalOpen(!isModalOpen)}
+            onClick={() => setIsDropdownOpen(!isDropdownOpen)}
           >
             <Avatar />
-            {isModalOpen && (
+            {isDropdownOpen && (
               <div className="drop-down-overlay">
                 <div className="drop-down-content">
                   <div className="drop-down-center">

@@ -80,7 +80,7 @@ const Password = () => {
               }}
             />
 
-            <Link className="forgot-password-btn" to="/resetpassword">
+            <Link className="forgot-password-btn" to="/reset_password">
               Forgot password?
             </Link>
           </div>
